@@ -1,0 +1,144 @@
+
+.navbar{
+    width: 80%;
+    margin: 5% 7%;
+    /* background-color: black; */
+}
+
+.middle{
+    margin: 5% 7%;
+}
+
+.bio{
+    text-align: center;
+    padding: 15%;
+}
+
+#connect{
+    padding-left: 0px;
+}
+
+#connect li{
+    display: inline;
+}
+
+#connect i{
+    padding: 1%;
+}
+
+#connect i:hover{
+    color: dimgray;
+    transition: 0.5s;
+}
+
+#connect a{
+    color: black;
+}
+
+.mypic{
+    width: 100%;
+}
+
+/* ---------Dones --------*/
+
+.dones{
+    margin: 5% 5%;
+    width: 90%;
+}
+
+.works-li{
+    position: relative;
+    margin-right: 0px;
+    background-blend-mode: multiply;
+}
+
+.work-image{
+    width: 100%;
+    margin: 1%;
+    display: block;
+    transition: .5s ease;
+    backface-visibility: hidden;
+    position: relative;
+    margin-right: 2%;
+    background-color: gray;
+}
+
+.overlay {
+    transition: .5s ease;
+    opacity: 0;
+    position: absolute;
+    top: 90%;
+    left: 10%;
+    text-align: left;
+}
+
+.works-li:hover .work-image {
+    opacity: 0.1;
+    transition: 0.5s;
+}
+
+.works-li:hover .overlay {
+    opacity: 1;
+    top: 70%;
+    transition: 0.5s;
+}
+
+.text {
+    width: 87%;
+    color: black;
+    font-weight:bolder;
+    font-size: 1.5rem;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.achieved{
+    margin: 8% 15%;
+    width: 70%;
+}
+
+.table{
+    width: 50px;
+}
+
+td{
+    color:dimgray;
+}
+
+.th:hover{
+    transform: scale(1.05);
+    transition: 1s;
+}
+
+td:hover{
+    transform: scale(1.05);
+    transition: 1s;
+}
+
+.bottom{
+    background-color:rgb(211, 211, 211);
+}
+
+.connect h1{
+    padding-top: 30%;
+}
+
+#contactform{
+    margin: 15% 15% 8%;
+    width: 70%;
+    padding:10%;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+
+.btn{
+    margin-top: 10%;
+    border-radius: 0% !important;
+    opacity: 1;
+}
+
+.btn:hover{
+    opacity: 0.8;
+}
+
+.last{
+    padding-left: 45%;
+}
